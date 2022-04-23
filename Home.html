@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+    <link rel="stylesheet" href="Home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="Home.js"></script>
+</head>
+
+
+<body ng-app="myapp" ng-controller="myctrl">
+
+<div class="main">
+
+
+
+<center>
+
+
+<div class="card">
+
+<div class="image">
+
+</div>
+<div class="title">
+ <h1>
+Recovered Cases</h1>
+</div>
+<div class="des">
+ <h1>{{all_data.recovered.value}}</h1>
+
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+
+</div>
+<div class="title">
+ <h1>
+Confirmed</h1>
+</div>
+<div class="des">
+<h1>{{all_data.confirmed.value}}</h1>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+
+</div>
+<div class="title">
+ <h1>
+Deaths</h1>
+</div>
+<div class="des">
+ <h1>{{all_data.deaths.value}}</h1>
+
+</div>
+
+
+</div>
+</center>
+</body>
+</html>
